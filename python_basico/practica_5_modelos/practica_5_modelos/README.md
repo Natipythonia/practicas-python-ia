@@ -20,9 +20,18 @@ de organización del código.
   - `naive_model.py`
   - `__init__.py`
 
-### Datos de salida
-El archivo `predicciones.csv` **no se incluye en el repositorio** debido a su tamaño.
-Este archivo se genera automáticamente al ejecutar el script de inferencia.
+## Datos de salida
+
+El archivo completo de predicciones (`predicciones.csv`) no se incluye en el repositorio debido a su tamaño.
+
+Para facilitar la revisión del proyecto, se incluye el archivo:
+
+- `predicciones_sample2.csv`
+
+Este archivo contiene **una muestra reducida (subset)** de las predicciones generadas por el modelo, manteniendo la misma estructura y formato que el archivo completo.
+
+El archivo completo de predicciones se genera automáticamente al ejecutar el script de inferencia (`inference_model.py`).
+
 
 ### Tecnologías
 - Python
